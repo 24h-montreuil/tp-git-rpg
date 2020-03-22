@@ -1,0 +1,25 @@
+{
+  "name": "tp-git-rpg",
+  "version": "1.0.0",
+  "description": "Tp d'entraînement d'utilisation de Git",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d build",
+    "start": "node public/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/24h-montreuil/tp-git-rpg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/24h-montreuil/tp-git-rpg/issues"
+  },
+  "homepage": "https://github.com/24h-montreuil/tp-git-rpg#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
