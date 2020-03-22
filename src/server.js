@@ -14,6 +14,13 @@ class Client {
 			console.log(this.toString() + ": " + data.toString());
 		});
 		
+		var initListener = function(data) {
+			this.setEntity(...data.toString().split(";"));
+			socket.removeListener("data", initListener);
+		}
+		
+		socket.on("data", initListener);
+		
 		socket.on("close", hadErr => {
 			if (hadErr)
 				console.log("Connection with client " + this.toString() + " closed due to an error!");
