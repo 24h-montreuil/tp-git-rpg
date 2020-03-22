@@ -48,12 +48,12 @@ It will create a build/ directory containing the transpiled project.
 
 ### Structure
 
-├── README.md
-├── package.json
-├── server.js
-└── src/
-    └── Entities
-        └── entity.js
+├── README.md\
+├── package.json\
+├── server.js\
+└── src/\
+    └── Entities\
+        └── entity.js\
     └── client.js
 
 ## TODO
